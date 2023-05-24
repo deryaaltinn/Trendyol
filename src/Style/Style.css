@@ -1,0 +1,48 @@
+img {
+  max-width: 100%;
+}
+
+.navv .bi-search {
+  position: absolute;
+  color: orange;
+  margin-top: 1.5rem;
+}
+.navv ul li {
+  margin: 1rem;
+  list-style: none;
+}
+.navv ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navv ul li a:hover {
+  color: orange;
+}
+.navv input {
+  width: 100%;
+  margin-top: 1rem;
+  height: 35px;
+  border-radius: 5px;
+  background-color: rgb(249, 249, 249);
+  border-color: rgb(237, 237, 237);
+}
+.navv img {
+  width: 100%;
+}
+
+.Menu .Menu-content ul li {
+  margin: 1rem;
+  list-style: none;
+}
+.Menu .Menu-content ul li a {
+  text-decoration: none;
+  color: black;
+}
+.Menu .Menu-content ul li a:hover {
+  color: orange;
+  border-bottom: 1.5px solid orange;
+}
+
+.destek a img {
+  border-radius: 10px;
+}/*# sourceMappingURL=Style.css.map */
