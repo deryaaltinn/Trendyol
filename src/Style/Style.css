@@ -45,4 +45,39 @@ img {
 
 .destek a img {
   border-radius: 10px;
+}
+
+.owl-dots {
+  display: none;
+}
+
+.owl-theme {
+  margin-top: 1rem;
+  text-align: center;
+}
+.owl-theme img {
+  border: 1px solid gray;
+  border-radius: 100%;
+}
+.owl-theme img:hover {
+  border: 1px solid orange;
+}
+.owl-theme .owl-item {
+  padding: 1rem;
+}
+.owl-theme a {
+  text-decoration: none;
+  color: black;
+}
+.owl-theme a:hover {
+  color: orange;
+}
+
+.Kategoriler {
+  margin-top: 1rem;
+}
+.Kategoriler button {
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
 }/*# sourceMappingURL=Style.css.map */
