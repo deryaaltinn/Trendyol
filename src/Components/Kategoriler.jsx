@@ -6,7 +6,7 @@ function Kategoriler() {
     <div className='Kategoriler'>
         <Container>
             <Row>
-                <Col className='col-4 '>
+                <Col className='col-4 kategori1'>
                    <button className='buton1' ><h5>Sepete En Çok Eklenenler</h5></button> 
                   
                 </Col>
