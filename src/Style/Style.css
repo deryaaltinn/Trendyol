@@ -6,6 +6,12 @@ img {
   position: absolute;
   color: orange;
   margin-top: 1.5rem;
+  right: 465px;
+}
+@media screen and (max-width: 600px) {
+  .navv {
+    display: none;
+  }
 }
 .navv ul li {
   margin: 1rem;
@@ -42,7 +48,17 @@ img {
   color: orange;
   border-bottom: 1.5px solid orange;
 }
+@media screen and (max-width: 600px) {
+  .Menu {
+    display: none;
+  }
+}
 
+@media screen and (max-width: 600px) {
+  .destek {
+    display: none;
+  }
+}
 .destek a img {
   border-radius: 10px;
 }
@@ -54,6 +70,11 @@ img {
 .owl-theme {
   margin-top: 1rem;
   text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .owl-theme .owl-item {
+    display: none;
+  }
 }
 .owl-theme img {
   border: 1px solid gray;
@@ -116,4 +137,69 @@ img {
 }
 .Card a button .right {
   display: none;
+}
+
+.footer {
+  background-color: black;
+}
+.footer button {
+  border-color: white;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+.footer ul li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer ul li a:hover {
+  border-bottom: 1px solid white;
+}
+.footer ul li a img {
+  margin-left: 10px;
+}
+
+.destekmobile {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .destekmobile {
+    display: block;
+  }
+}
+
+.navbarmobile {
+  display: none;
+}
+.navbarmobile .nav .icons ul li {
+  display: inline-block;
+  margin: 1rem;
+}
+.navbarmobile .nav .icons ul li svg {
+  color: black;
+}
+.navbarmobile img {
+  width: 40%;
+}
+@media screen and (max-width: 600px) {
+  .navbarmobile {
+    display: block;
+  }
+  .navbarmobile .bi-search {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+  }
+  .navbarmobile input {
+    width: 100%;
+    border-radius: 5px;
+    border-color: rgb(237, 237, 237);
+    background-color: rgb(249, 249, 249);
+    margin-bottom: 1rem;
+    height: 30px;
+  }
 }/*# sourceMappingURL=Style.css.map */

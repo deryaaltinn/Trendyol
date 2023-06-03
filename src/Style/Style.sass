@@ -7,6 +7,11 @@ img
         position: absolute
         color: orange
         margin-top: 1.5rem
+        right: 465px
+    @media screen  and (max-width:600px)
+        display: none 
+        
+         
         
     
     ul
@@ -42,10 +47,17 @@ img
                     color: black
                     &:hover
                         color: orange
-                        border-bottom: 1.5px solid orange            
+                        border-bottom: 1.5px solid orange  
+    @media screen and (max-width: 600px)
+        display: none 
+        
+                                 
 
 
 .destek
+    @media screen and ( max-width:600px  )
+        display: none
+        
     a
         img
             border-radius: 10px    
@@ -55,6 +67,15 @@ img
 .owl-dots
     display: none
 .owl-theme
+    @media screen and (max-width:600px)
+        .owl-item
+            display: none
+        
+    
+    
+        
+        
+    
     margin-top: 1rem
     img
         border: 1px solid gray
@@ -65,6 +86,9 @@ img
     text-align: center
     .owl-item
         padding: 1rem
+       
+            
+       
    
    
     a
@@ -72,7 +96,9 @@ img
         color: black
         &:hover
             color: orange
-
+ 
+    
+ 
 
 
 .Kategoriler
@@ -123,9 +149,71 @@ img
             height: 35px
             border-radius: 0 0 10px 10px
             
+.footer
+    button
+        border-color: white
+        background-color: black
+        border-radius: 10px
+        color: white
+
+    background-color: black
+    ul
+        li
+
+            list-style: none
+            margin-bottom: 1rem
+            a
+                &:hover
+                    border-bottom: 1px solid white
+                text-decoration: none
+                color: white
+                img
+                  
+                    margin-left: 10px            
                 
     
+.destekmobile
+    display: none
+    @media screen and (max-width:600px)
+        display: block
+        
+        
+.navbarmobile
+    .nav
+        
+        
+            
+            
+        .icons
+            ul
+                li
+                    display: inline-block
+                    margin: 1rem
+                    svg
+                        color: black
+                        
+    img
+        
+        width: 40%
 
+    display: none
+    @media screen and (max-width:600px)
+        .bi-search
+            position: absolute
+            top: 80px
+            right: 20px
+        input
+            width: 100%
+            border-radius: 5px
+            border-color: rgb(237,237 ,237 )
+            background-color: rgb(249,249 ,249 )
+            margin-bottom: 1rem
+            height: 30px
+        display: block
+       
+
+        
+       
   
             
        

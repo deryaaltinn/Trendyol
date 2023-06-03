@@ -6,23 +6,32 @@ import Destek from './Components/Destek';
 import Carousel from './Components/Carousel';
 import Kategoriler from './Components/Kategoriler';
 import Cards from './Components/Cards';
-import { Container,Row,Col } from 'react-bootstrap';
 import Fetchslider from './Components/Fetchslider';
+import Footer from './Components/Footer';
+import Destekmobile from './Components/Destekmobile';
+import Navbarmobile from './Components/Navbarmobile';
+
 
 
 
 
 function App() {
+  
   return (
     <div className="App">
      <Navbar/>
+     <Navbarmobile/>
      <Menu/>
      <Destek/>
+     <Destekmobile/>
      <Carousel/>
      <Kategoriler/>
-    
      <Cards/>
-    <Fetchslider/>
+    
+     
+     <Fetchslider/>
+     <Footer/>
+     
      
     
     

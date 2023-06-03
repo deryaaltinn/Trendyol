@@ -6,15 +6,15 @@ function Kategoriler() {
     <div className='Kategoriler'>
         <Container>
             <Row>
-                <Col className='col-4 kategori1'>
+                <Col sm={12} className='col-md-4 mt-2 kategori1'>
                    <button className='buton1' ><h5>Sepete En Çok Eklenenler</h5></button> 
                   
                 </Col>
-                <Col className='col-4 kategori2'>
+                <Col sm={12} className='col-md-4 mt-2 kategori2'>
                     <button><h5>En Çok Öne Çıkanlar</h5></button>
                   
                 </Col>
-                <Col className='col-4 kategori3'>
+                <Col sm={12} className='col-md-4 mt-2 kategori3'>
                    <button><h5>Flaş Ürünler</h5></button> 
                   
                 </Col>

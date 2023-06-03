@@ -1,0 +1,39 @@
+import React from 'react'
+import { Container,Row,Col } from 'react-bootstrap';
+
+function Navbarmobile() {
+  return (
+    <div className='navbarmobile'>
+        <Container>
+            <Row>
+                <Col sm={12} className='col-md-6'>
+                    <div className='nav d-flex justify-content-between'><img src="data:image/png;base64,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" alt="" />
+                       <div className='icons'> <ul>
+                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                          </svg></a></li>
+                          <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                          </svg></a></li>
+                          <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                          </svg></a></li>
+                        </ul></div>
+                    </div>
+
+                </Col>
+                <Col sm={12} className='col-md-6'>
+                
+                    <input type="text" placeholder='Aramak istediğiniz ürün veya markayı yazınız' /> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </Col>
+            </Row>
+        </Container>
+
+    </div>
+  )
+}
+
+export default Navbarmobile
