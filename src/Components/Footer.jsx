@@ -6,7 +6,7 @@ function Footer() {
     <div className='footer mt-3'> 
     <Container>
         <Row >
-            <Col className='col-sm-3 my-5'>
+            <Col  sm={12} className='col-md-3 my-5'>
                 <ul>
                     <li> <a href=""><h5>TRENDYOL</h5></a></li>
                     <li> <a href="">Biz kimiz</a></li>
@@ -16,7 +16,7 @@ function Footer() {
                     <li> <a href="">Güvenli alışveriş</a></li>
                 </ul>
             </Col>
-            <Col className='col-sm-3 my-5'>
+            <Col  sm={12} className='col-md-3 my-5'>
                 <ul>
                     <li> <a href=""><h5>About Us</h5></a></li>
                     <li> <a href="">Who we are</a></li>
@@ -24,7 +24,7 @@ function Footer() {
                     <li> <a href="">contact us</a></li>
                     <li> <a href="">Sustainability</a></li>
                     <li> <a href="">Mobil uygulamalar</a></li>
-                    <li><button><img width={40} src="https://cdn-icons-png.flaticon.com/512/882/882704.png" alt="" />App Store</button>
+                    <li><button><img width={40}  src="https://cdn-icons-png.flaticon.com/512/882/882704.png" alt="" />App Store</button>
                     
                     </li>
                     <li><button><img width={40} src="https://cdn-icons-png.flaticon.com/128/300/300218.png" alt="" />Google Play</button>
@@ -35,7 +35,7 @@ function Footer() {
                     </li>
                 </ul>
             </Col>
-            <Col className='col-sm-3 my-5'>
+            <Col  sm={12} className='col-md-3 my-5'>
                 <ul>
                     <li> <a href=""><h5>Kampanyalar</h5></a></li>
                     <li> <a href="">Aktif Kampanyalar</a></li>
@@ -50,7 +50,7 @@ function Footer() {
                     </li>
                 </ul>
             </Col>
-            <Col className='col-sm-3 my-5'>
+            <Col  sm={12} className='col-md-3 my-5'>
                 <ul>
                     <li> <a href=""><h5>Yardım</h5></a></li>
                     <li> <a href="">Sıkça Sorulan Sorular</a></li>

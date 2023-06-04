@@ -5,7 +5,7 @@ import { Container,Row,Col,Carousel } from 'react-bootstrap';
 
 function Destekmobile() {
   return (
-    <div className='destekmobile'>
+    <div className='destekmobile mt-3'>
          <Carousel>
       <Carousel.Item>
         <img

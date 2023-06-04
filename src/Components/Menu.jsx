@@ -13,7 +13,7 @@ function Menu() {
                       <li><a href="">Anne&Çocuk</a>  </li>
                       <li> <a href="">Ev&Mobilya </a> </li>
                       <li> <a href="">Supermarket</a> </li>
-                      <li><a href="">Kosmetik</a>  </li>
+                      <li><a href="">Kozmetik</a>  </li>
                      <li> <a href="">Ayakkabı&Çanta</a>  </li>
                      <li><a href="">Saat&Aksesuar</a>  </li>
                      <li><a href="">Elektronik</a>  </li>

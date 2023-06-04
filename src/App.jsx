@@ -10,6 +10,7 @@ import Fetchslider from './Components/Fetchslider';
 import Footer from './Components/Footer';
 import Destekmobile from './Components/Destekmobile';
 import Navbarmobile from './Components/Navbarmobile';
+import Menumobile from './Components/Menumobile';
 
 
 
@@ -22,6 +23,7 @@ function App() {
      <Navbar/>
      <Navbarmobile/>
      <Menu/>
+     <Menumobile/>
      <Destek/>
      <Destekmobile/>
      <Carousel/>
