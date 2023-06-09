@@ -223,6 +223,20 @@ img {
   background-color: white;
   border: 1px solid;
 }
+.carousell2 .urunler .fiyat {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+}
+.carousell2 .urunler a svg {
+  color: black;
+  right: 10px;
+  top: 5px;
+  position: absolute;
+}
+.carousell2 .urunler a svg:hover {
+  color: orange;
+}
 .carousell2 .urunler a img {
   width: 50%;
 }/*# sourceMappingURL=Style.css.map */
