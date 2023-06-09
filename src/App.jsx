@@ -28,10 +28,9 @@ function App() {
      <Destekmobile/>
      <Carousel/>
      <Kategoriler/>
-     <Cards/>
-    
-     
+     <Cards/>    
      <Fetchslider/>
+     <Cards/>
      <Footer/>
      
      

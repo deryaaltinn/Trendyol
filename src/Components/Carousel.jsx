@@ -50,7 +50,7 @@ function Carousel() {
      <div ><a href=""><img  className="img"src={'https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/27/Hummel_202301270232.jpg'}/>Hummel</a></div>  
      <div ><a href=""><img  className="img"src={'https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/28/Vestel_202301280121.jpg'}/>Vestel</a></div>  
      <div ><a href=""><img  className="img"src={'https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/13/Karaca_202302131917.jpg'}/>Karaca</a></div>  
-     <div  ><a href=""><img  className="img"src={'https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/27/Defacto_202301270049.jpg'}/>Defacto</a></div>  
+     <div ><a href=""><img  className="img"src={'https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/27/Defacto_202301270049.jpg'}/>Defacto</a></div>  
      
  </OwlCarousel>  
 </div>  
